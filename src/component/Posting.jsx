@@ -115,7 +115,7 @@ transition={Bounce}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto lg: max-w-5xl">
         {posts.slice(0,6).map((post)=> (
-          <div key={post.id} className="h-60 bg-white shadow-md rounded-lg p-4  flex flex-col justify-between ">
+          <div key={post.id} className="h-100 bg-white shadow-lg rounded-lg p-4  flex flex-col justify-between ">
             <div>
               <h3 className="text-lg font-bold">{post.title}</h3>
               <p className="text-gray-600">{post.body}</p>

@@ -50,7 +50,7 @@ theme="light"
 transition={Bounce}
 />
       
-        <section className="p-6 bg-white shadow-md max-w-2xl mx-auto mt-6 rounded-lg">
+        <section className="p-6 bg-white shadow-lg max-w-2xl mx-auto mt-6 rounded-lg">
         <input
           type="text"
           placeholder="Title"
